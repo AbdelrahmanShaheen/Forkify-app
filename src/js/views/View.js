@@ -9,8 +9,6 @@ export default class View {
     //  it's an object
     if (!data || data.length === 0) return false;
 
-    // if (Array.isArray(data) && data.length === 0) return false;
-
     return true;
   }
   _clear() {

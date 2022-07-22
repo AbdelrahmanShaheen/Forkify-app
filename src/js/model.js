@@ -1,4 +1,3 @@
-// import { async } from 'regenerator-runtime';
 import { async } from 'regenerator-runtime';
 import { API_URL, RES_PER_PAGE, KEY } from './config';
 import { AJAX } from './helpers';
@@ -128,7 +127,3 @@ const init = function () {
   if (data) state.bookmarks = JSON.parse(data);
 };
 init();
-const clearBookmarks = function () {
-  localStorage.clear();
-};
-// clearBookmarks();

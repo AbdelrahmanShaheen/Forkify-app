@@ -10,10 +10,6 @@ import '../../node_modules/core-js/stable';
 import '../../node_modules/regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 
-// if (module.hot) {
-//   module.hot.accept();
-// }
-const recipeContainer = document.querySelector('.recipe');
 
 const controlRecipes = async function () {
   try {
