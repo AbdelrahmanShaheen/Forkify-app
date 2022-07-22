@@ -15,13 +15,13 @@ This app is built with vanilla JavaScript along with HTML and SCSS(not done by m
 
 # Feauters in the APP
 
-1. Search functionality: input field to send request to API with searched keywords
-2. Display results(list of recipes) with pagination
-3. Display recipe with cooking time, servings and ingredients
-4. Change servings functionality: update all ingredients according to current number of servings
-5. Bookmarking functionality: display list of all bookmarked recipes
-6. Create your own recipes and these recipes will automatically be bookmarked.
-7. Store bookmark data in the browser using local storage
+- Search functionality: input field to send request to API with searched keywords
+- Display results(list of recipes) with pagination
+- Display recipe with cooking time, servings and ingredients
+- Change servings functionality: update all ingredients according to current number of servings
+- Bookmarking functionality: display list of all bookmarked recipes
+- Create your own recipes and these recipes will automatically be bookmarked.
+- Store bookmark data in the browser using local storage
 
 # App Architecture
 
@@ -31,9 +31,9 @@ This app is built with vanilla JavaScript along with HTML and SCSS(not done by m
 
 # App Screenshots
 
-1.  ![screenshot1](https://user-images.githubusercontent.com/77184432/180442985-b1a82ef3-64cd-451d-b2b4-677447f23c4c.png)
-2.  ![Screenshot2](https://user-images.githubusercontent.com/77184432/180443059-de3dfe50-6e40-4f72-921e-d2045cd38c10.png)
-3.  ![Screenshot3](https://user-images.githubusercontent.com/77184432/180443124-e81e9ff9-93bf-44a8-945f-679fb03f3787.png)
+![screenshot1](https://user-images.githubusercontent.com/77184432/180442985-b1a82ef3-64cd-451d-b2b4-677447f23c4c.png)
+![Screenshot2](https://user-images.githubusercontent.com/77184432/180443059-de3dfe50-6e40-4f72-921e-d2045cd38c10.png)
+![Screenshot3](https://user-images.githubusercontent.com/77184432/180443124-e81e9ff9-93bf-44a8-945f-679fb03f3787.png)
 
 ## Deployment/Live Demo
 
