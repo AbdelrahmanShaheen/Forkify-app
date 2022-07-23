@@ -25,6 +25,23 @@ This app is built with vanilla JavaScript along with HTML and SCSS(not done by m
 
 # App Architecture
 
+I used i this app **the Model-View-Controller (MVC) Architecture**
+
+- one model contains all the data about the application and also all the **AJAX** work.
+- one controller contains the application logic ,it's a bridge between model and the views (which don't know about one another).
+- i used multiple views(like: searchView ,recipeView ,resultsView , etc..) contain all the presentation logic like DOM work and rendering html code
+
+I used **Publisher-Subscriber** design pattern.
+so handling the events done in the controller and listening for events to handle it done in the view , so i used this approach to put everything in its place.
+
+###### Below is the MVC implementation (RECIPE DISPLAY ONLY)
+
+![forkify-architecture-recipe-loading](https://user-images.githubusercontent.com/77184432/180591784-8def0555-b7b3-4dc8-a614-5da2bb8ae001.png)
+
+###### Below is the OOP Architecture implementation(ALL VIEWS IN THE APP)
+
+![Views-architecture](https://user-images.githubusercontent.com/77184432/180591780-1aafcb9c-3f40-412b-b1f5-a039256b495f.png)
+
 # Flowchart Diagram
 
 ![forkify-flowchart-part-3](https://user-images.githubusercontent.com/77184432/180443382-9bdb978a-a4d5-436b-a6af-9fbf5090a545.png)
