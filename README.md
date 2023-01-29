@@ -24,6 +24,7 @@
   - [Future Feauters](#future-feauters)
 
 </details>
+
 ## About
 
 Recipe application with custom recipe uploads, it's all about searching for recipes
