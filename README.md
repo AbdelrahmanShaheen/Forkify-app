@@ -3,15 +3,12 @@
 <details>
 <summary>Table of content</summary>
 
-- [Forkify-APP](#forkify-app)
   - [About](#about)
   - [Build with](#build-with)
   - [About the API used for fetching recipe food data](#about-the-api-used-for-fetching-recipe-food-data)
   - [Features ✨](#features-)
   - [Project structure](#project-structure)
   - [App Architecture](#app-architecture)
-          - [Below is the MVC implementation (RECIPE DISPLAY ONLY)](#below-is-the-mvc-implementation-recipe-display-only)
-          - [Below is the OOP Architecture implementation(ALL VIEWS IN THE APP)](#below-is-the-oop-architecture-implementationall-views-in-the-app)
   - [Flowchart Diagram](#flowchart-diagram)
   - [Screenshots 🖵](#screenshots-)
   - [Installation 📥](#installation-)
@@ -32,7 +29,7 @@ and displaying them in a user interface.
 
 ## Build with
 
-This app is built with vanilla JavaScript along with HTML and SCSS(not done by me). It uses PARCEL as module bundler , NPM as package manager and Babel to convert new JS code into compatible version for older browsers.
+This app is built with vanilla JavaScript along with HTML and SCSS. It uses PARCEL as module bundler , NPM as package manager and Babel to convert new JS code into compatible version for older browsers.
 
 ## About the API used for fetching recipe food data
 
