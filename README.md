@@ -1,5 +1,31 @@
 # Forkify-APP
 
+<details>
+<summary>Table of content</summary>
+
+- [Forkify-APP](#forkify-app)
+  - [About](#about)
+  - [Build with](#build-with)
+  - [About the API used for fetching recipe food data](#about-the-api-used-for-fetching-recipe-food-data)
+  - [Features ✨](#features-)
+  - [Project structure](#project-structure)
+  - [App Architecture](#app-architecture)
+          - [Below is the MVC implementation (RECIPE DISPLAY ONLY)](#below-is-the-mvc-implementation-recipe-display-only)
+          - [Below is the OOP Architecture implementation(ALL VIEWS IN THE APP)](#below-is-the-oop-architecture-implementationall-views-in-the-app)
+  - [Flowchart Diagram](#flowchart-diagram)
+  - [Screenshots 🖵](#screenshots-)
+  - [Installation 📥](#installation-)
+  - [How to use](#how-to-use)
+    - [using live server](#using-live-server)
+    - [using npm](#using-npm)
+  - [Deployment/Live Demo](#deploymentlive-demo)
+  - [Screen record](#screen-record)
+  - [Note](#note)
+  - [Future Feauters](#future-feauters)
+
+</details>
+## About
+
 Recipe application with custom recipe uploads, it's all about searching for recipes
 and displaying them in a user interface.
 
@@ -13,7 +39,7 @@ This app is built with vanilla JavaScript along with HTML and SCSS(not done by m
 - Every user should have a personal API key for adding recipes but you will use mine.
 - You can search for these recipes [Available search queries](https://forkify-api.herokuapp.com/phrases.html)
 
-# Feauters in the APP
+## Features ✨
 
 - Search functionality: input field to send request to API with searched keywords
 - Display results(list of recipes) with pagination
@@ -23,7 +49,52 @@ This app is built with vanilla JavaScript along with HTML and SCSS(not done by m
 - Create your own recipes and these recipes will automatically be bookmarked.
 - Store bookmark data in the browser using local storage
 
-# App Architecture
+## Project structure
+
+<details>
+<summary>Click to expand!</summary>
+
+```bash
+## Project Structure
+📦Forkify-app
+ ┣ 📂src
+ ┃ ┣ 📂img
+ ┃ ┃ ┣ 📜favicon.png
+ ┃ ┃ ┣ 📜icons.svg
+ ┃ ┃ ┗ 📜logo.png
+ ┃ ┣ 📂js
+ ┃ ┃ ┣ 📂views
+ ┃ ┃ ┃ ┣ 📜addRecipeView.js
+ ┃ ┃ ┃ ┣ 📜bookmarksView.js
+ ┃ ┃ ┃ ┣ 📜paginationView.js
+ ┃ ┃ ┃ ┣ 📜previewView.js
+ ┃ ┃ ┃ ┣ 📜recipeView.js
+ ┃ ┃ ┃ ┣ 📜resultsView.js
+ ┃ ┃ ┃ ┣ 📜searchView.js
+ ┃ ┃ ┃ ┗ 📜View.js
+ ┃ ┃ ┣ 📜config.js
+ ┃ ┃ ┣ 📜controller.js
+ ┃ ┃ ┣ 📜helpers.js
+ ┃ ┃ ┗ 📜model.js
+ ┃ ┗ 📂sass
+ ┃ ┃ ┣ 📜main.scss
+ ┃ ┃ ┣ 📜_base.scss
+ ┃ ┃ ┣ 📜_components.scss
+ ┃ ┃ ┣ 📜_header.scss
+ ┃ ┃ ┣ 📜_preview.scss
+ ┃ ┃ ┣ 📜_recipe.scss
+ ┃ ┃ ┣ 📜_searchResults.scss
+ ┃ ┃ ┗ 📜_upload.scss
+ ┣ 📜.gitignore
+ ┣ 📜index.html
+ ┣ 📜package.json
+ ┗ 📜README.md
+
+```
+
+</details>
+
+## App Architecture
 
 I used i this app **the Model-View-Controller (MVC) Architecture**
 
@@ -42,15 +113,67 @@ so handling the events done in the controller and listening for events to handle
 
 ![Views-architecture](https://user-images.githubusercontent.com/77184432/180591780-1aafcb9c-3f40-412b-b1f5-a039256b495f.png)
 
-# Flowchart Diagram
+## Flowchart Diagram
+
+<details>
+<summary>Click to expand!</summary>
 
 ![forkify-flowchart-part-3](https://user-images.githubusercontent.com/77184432/180443382-9bdb978a-a4d5-436b-a6af-9fbf5090a545.png)
 
-# App Screenshots
+</details>
+
+## Screenshots 🖵
+
+<details>
+<summary>First look</summary>
 
 ![screenshot1](https://user-images.githubusercontent.com/77184432/180442985-b1a82ef3-64cd-451d-b2b4-677447f23c4c.png)
+
+</details>
+
+<details>
+<summary>Duck recipes</summary>
+
 ![Screenshot2](https://user-images.githubusercontent.com/77184432/180443059-de3dfe50-6e40-4f72-921e-d2045cd38c10.png)
+
+</details>
+
+<details>
+<summary>Add recipe</summary>
+
 ![Screenshot3](https://user-images.githubusercontent.com/77184432/180443124-e81e9ff9-93bf-44a8-945f-679fb03f3787.png)
+
+</details>
+
+## Installation 📥
+
+```bash
+> git clone https://github.com/AbdelrahmanShaheen/Forkify-app
+> cd Forkify-app/
+> npm install
+```
+
+## How to use
+
+### using live server
+
+Use live server extension \
+or
+install nodejs : [nodejs](https://nodejs.org/en/download/) \
+then install live server as an npm package
+
+```bash
+> npm install live-server -g
+> live-server
+```
+
+### using npm
+
+```bash
+> npm run start
+```
+
+The application will be running on your localhost.
 
 ## Deployment/Live Demo
 
